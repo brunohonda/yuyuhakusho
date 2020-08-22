@@ -1,2 +1,5 @@
 # dependences
 node_modules/
+
+# generates
+dist/
