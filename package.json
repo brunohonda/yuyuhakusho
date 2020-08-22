@@ -1,0 +1,15 @@
+{
+  "name": "yu-yu-hakusho",
+  "version": "0.0.1",
+  "description": "Work information repository",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.jetbrains.space/brunohonda/yyh/yu-yu-hakusho.git"
+  },
+  "author": "Bruno Honda <bruno.honda@live.com>",
+  "license": "ISC"
+}
