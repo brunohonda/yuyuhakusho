@@ -1,5 +1,8 @@
 // eslint-disable-next-line no-unused-vars
 import express, { Request, Response } from 'express';
+import { config } from 'dotenv';
+
+config();
 
 const app = express();
 
@@ -10,4 +13,4 @@ app.get(
     })
 );
 
-app.listen(3000);
+app.listen(process.env.APP_PORT);
