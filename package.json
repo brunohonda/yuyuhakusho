@@ -11,5 +11,9 @@
     "url": "https://git.jetbrains.space/brunohonda/yyh/yu-yu-hakusho.git"
   },
   "author": "Bruno Honda <bruno.honda@live.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.0"
+  }
 }
