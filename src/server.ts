@@ -8,9 +8,11 @@ const app = express();
 
 app.get(
     '/',
-    (request: Request, response: Response) => response.json({
-      message: 'Hello world!!!'
-    })
+    (request: Request, response: Response) => {
+      const message = 'Hello world!!!';
+
+      return response.json({ message });
+    }
 );
 
 app.listen(process.env.APP_PORT);
