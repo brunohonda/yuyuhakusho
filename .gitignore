@@ -1,0 +1,10 @@
+# dependences
+node_modules/
+
+# generates
+coverage/
+dist/
+
+# local
+.vscode/
+.env
